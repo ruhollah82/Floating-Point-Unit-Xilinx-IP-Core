@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../FPU.srcs/sources_1/ip/div/sim/div.vhd" \
+"../../../../FPU.srcs/sources_1/ip/mul/sim/mul.vhd" \
+"../../../../FPU.srcs/sources_1/ip/sub/sim/sub.vhd" \
+"../../../../FPU.srcs/sources_1/ip/add/sim/add.vhd" \
+"../../../../FPU.srcs/sources_1/new/FPU_top.vhd" \
+"../../../../FPU.srcs/sim_1/new/fpu_tb.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../FPU.srcs/sources_1/ip/mul/sim/mul.vhd" \
+
+nosort
